@@ -1,0 +1,8 @@
+.btn-hide{
+    visibility: hidden;
+}
+
+.legend-bar {
+    background-color: var(--primary-color);
+    color: white;
+}

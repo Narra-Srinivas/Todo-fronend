@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+:root {
+    --primary-color: #6962FB;
+    --secondary-color: #B062FB;
+    --body-text-color: #596392;
+    --navbar-footer-color: #f9f9f9;
+    --black-color: #000000;
+    --red-theme-color: #FF0800;
+    --record-theme-color: #ffffff;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    color: transparent;
+    background-clip: text;
+    display: inline-block; /* Ensures the gradient is applied to the entire text */
+  }
+
+  .shadow-effect {
+        background-color: var(--navbar-footer-color);
+        box-shadow: 0 4px 8px rgba(0,0,0, 0.2); /* Add a shadow effect */
+  }
